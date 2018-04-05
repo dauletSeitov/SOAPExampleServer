@@ -4,7 +4,7 @@ import javax.jws.WebService;
 
 import org.springframework.stereotype.Component;
 @Component
-@WebService(endpointInterface = "com.example.demo.CalculatorI")
+@WebService(serviceName = "CalculatorService", endpointInterface = "com.example.demo.CalculatorI")
 public class CalculatorImpl implements CalculatorI {
 
 	@Override
